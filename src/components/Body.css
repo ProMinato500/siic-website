@@ -1,0 +1,75 @@
+.bodyContainer {
+  padding: 0 14vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  margin: 7vh 0;
+}
+
+.categoriesContainer h3 {
+  color: #0263bc;
+  font-size: 23px;
+  text-align: center;
+}
+
+.whyExpo h1 {
+  text-align: right;
+  width: 100%;
+  font-size: 30px;
+  color: #0263bc;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.whyExpo h1 span {
+  font-size: 40px;
+}
+
+.expoBody {
+  margin: 20px 40px 0 40px;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+}
+
+.benefitsBody h1 {
+  font-size: 30px;
+  color: #0263bc;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.benefitsBody ul,
+.productBody ul {
+  list-style: none;
+  margin: 20px 40px 0 40px;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+}
+
+.benefitsBody ul li::before,
+.productBody ul li::before {
+  content: "\2023";
+  color: rgb(14, 70, 155);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.productBody h1 {
+  text-align: right;
+  width: 100%;
+  font-size: 30px;
+  color: #0263bc;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about h1 {
+  font-size: 30px;
+  color: #0263bc;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.aboutBody {
+  margin: 20px 40px 0 40px;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+}
