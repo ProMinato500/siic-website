@@ -1,5 +1,11 @@
 import React from "react";
 import "./Body.css";
+import HandShake from "./icons/handshake.svg";
+import Idea from "./icons/idea.svg";
+import Product from "./icons/product.svg";
+import Company from "./icons/company.svg";
+import Rocket from "./icons/rocket.svg";
+import Note from "./icons/note.svg";
 
 const Body = () => {
   return (
@@ -8,7 +14,26 @@ const Body = () => {
         <h3>
           The Product Expo'23 has events in 3 categories based on the visitors:
         </h3>
-        <div className="categoriesList">{/*  */}</div>
+        <div className="categoriesList">
+          <div className="category">
+            <img src={Product} alt="product" />
+            <p className="catText">
+              <span>Product</span> Experience
+            </p>
+          </div>
+          <div className="category">
+            <img src={Idea} alt="idea" />
+            <p className="catText">
+              <span>Ideas</span> Do Takeoff
+            </p>
+          </div>
+          <div className="category">
+            <img src={HandShake} alt="handshake" />
+            <p className="catText">
+              <span>Platform</span> to Collaborate
+            </p>
+          </div>
+        </div>
       </div>
       <div className="whyExpo">
         <h1>
@@ -94,7 +119,48 @@ const Body = () => {
           SRM Innovation and Design Centre and Centre for Intellectual Asset
           Protection.
         </p>
-        <div className="achievements"></div>
+        <div className="achievements">
+          <div className="leftAchie">
+            <div className="blueBox">
+              <p>
+                No. of Startups Incubated: <span>20</span>
+              </p>
+              <img src={Company} alt="company" />
+            </div>
+            <div className="blueBox">
+              <p>
+                No. of Startups Graduated: <span>10</span>
+              </p>
+              <img src={Rocket} alt="rocket" />
+            </div>
+            <div className="blueBox">
+              <p>
+                <span>10</span> Startups raised <span>289.39 crores</span> of
+                funds through investments and grant
+              </p>
+            </div>
+          </div>
+          <div className="rightAchie">
+            <div className="blueBox">
+              <p>
+                No. of Patents Filed: <span>693</span>
+              </p>
+              <img src={Note} alt="company" />
+            </div>
+            <div className="blueBox">
+              <p>
+                No. of Patents Granted: <span>87</span>
+              </p>
+              <img src={Note} alt="rocket" />
+            </div>
+            <div className="textBox">
+              <p>
+                Patents include contries like{" "}
+                <span>India, US, UK, Korea, Signapore, Japan</span>, etc.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
