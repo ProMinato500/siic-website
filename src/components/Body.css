@@ -1,5 +1,5 @@
 .bodyContainer {
-  padding: 0 14vw;
+  padding: 0 20vw;
   display: flex;
   flex-direction: column;
   text-align: justify;
@@ -43,23 +43,24 @@
 .whyExpo h1 {
   text-align: right;
   width: 100%;
-  font-size: 30px;
+  font-size: 40px;
   color: #0263bc;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .whyExpo h1 span {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .expoBody {
-  margin: 20px 40px 0 40px;
+  margin: 20px 4vw 0 4vw;
   letter-spacing: 0.02em;
+  font-size: 20px;
   line-height: 30px;
 }
 
 .benefitsBody h1 {
-  font-size: 30px;
+  font-size: 40px;
   color: #0263bc;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -67,8 +68,9 @@
 .benefitsBody ul,
 .productBody ul {
   list-style: none;
-  margin: 20px 40px 0 40px;
+  margin: 20px 4vw 0 4vw;
   letter-spacing: 0.02em;
+  font-size: 20px;
   line-height: 30px;
 }
 
@@ -85,19 +87,19 @@
 .productBody h1 {
   text-align: right;
   width: 100%;
-  font-size: 30px;
+  font-size: 40px;
   color: #0263bc;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .about h1 {
-  font-size: 30px;
+  font-size: 40px;
   color: #0263bc;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .aboutBody {
-  margin: 20px 40px 0 40px;
+  margin: 20px 4vw 0 4vw;
   letter-spacing: 0.02em;
   line-height: 30px;
 }
