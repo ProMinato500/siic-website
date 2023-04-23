@@ -9,15 +9,10 @@ const Header = () => {
       <div className="HeaderImage">
         <div className="HeaderContent">
           <h1>
-            WELCOME
-            <br />
-            TO
+            WELCOME TO
             <br />
             <span>PRODUCT EXPO'23</span>
           </h1>
-          <button href="/" class="btn">
-            REGISTER HERE
-          </button>
         </div>
       </div>
       <div className="lowerpart">

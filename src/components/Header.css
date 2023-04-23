@@ -8,37 +8,25 @@
   min-height: 65vh;
   background-position: center;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .HeaderContent {
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
-  margin-top: 10vh;
-  margin-left: 20vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 120px;
 }
 
 .HeaderContent span {
   color: yellow;
-}
-
-.btn {
-  margin-top: 10vh;
-  background-color: #008cba;
-  border: none;
-  color: white;
-  padding: 20px 30px;
-  font-weight: 600;
-  text-align: center;
-  font-size: 30px;
-  transition-duration: 0.4s;
-  filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
-}
-
-.btn:hover {
-  background-color: white;
-  color: #008cba;
-  cursor: pointer;
+  font-size: 100px;
 }
 
 .lowerpart {
