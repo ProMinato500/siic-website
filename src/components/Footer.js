@@ -144,7 +144,7 @@ const Footer = () => {
               style={{ objectFit: "contain", width: 32, height: 32 }}
             />
             <a
-              href="/"
+              href="https://webstor.srmist.edu.in/web_assets/srmist-virtual-tour-vo/index.htm"
               style={{
                 color: "#003A92",
                 fontWeight: 600,
@@ -169,7 +169,7 @@ const Footer = () => {
               style={{ objectFit: "contain", width: 32, height: 32 }}
             />
             <a
-              href="/"
+              href="https://www.youtube.com/user/SRMeducation"
               style={{
                 color: "#003A92",
                 fontWeight: 600,
@@ -194,7 +194,7 @@ const Footer = () => {
               style={{ objectFit: "contain", width: 32, height: 32 }}
             />
             <a
-              href="/"
+              href="https://www.srmist.edu.in/life-at-srm/muthucharam/"
               style={{
                 color: "#003A92",
                 fontWeight: 600,
