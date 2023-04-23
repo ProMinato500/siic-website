@@ -9,12 +9,15 @@ const Navbar = () => {
         padding: "0 6vw",
       }}
     >
-      <div style={{ width: "20vw", padding: "0 5vw" }}>
-        <img
-          style={{ width: "120px" }}
-          src="/assets/Product-Expo.png"
-          alt="Logo"
-        />
+      <div
+        style={{
+          width: "20vw",
+          padding: "0 5vw",
+          display: "flex",
+          alignItems: "center",
+        }}
+      >
+        <img src="/assets/Product-Expo.png" alt="Logo" />
       </div>
       <div
         style={{
